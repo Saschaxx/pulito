@@ -132,6 +132,12 @@
     animation-name: revealer-text;
 }
 
+@media only screen and (max-width: 2560px) and (min-width: 1920px) {
+    .hero {
+        height: 50vh;
+    }
+}
+
 @media only screen and (max-width: 800px) and (min-width: 320px)  { 
 
     .reveal-text {
