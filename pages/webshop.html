@@ -26,7 +26,7 @@
             </a>
             <ul class="desk">
                 <li>
-                    <a class="nav__link" class="" href="pages/webshop.html">Produkter</a>
+                    <a class="nav__link" class="" href="../pages/webshop.html">Produkter</a>
                 </li>
                 <li>
                     <a class="nav__link" href="#">Om os</a>
@@ -63,7 +63,7 @@
                         </div>
                         <ul>
                             <li>
-                                <a href="#">Produkter</a>
+                                <a href="/pages/webshop.html">Produkter</a>
                             </li>
                             <li>
                                 <a href="#">Om os</a>
@@ -71,7 +71,11 @@
                             <li>
                                 <a href="#">Kontakt</a>
                             </li>
-
+                            <li>
+                                <a class="basket" href="#">
+                                    <img height="30px" src="../images/basket_white.svg" alt="#">
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -108,7 +112,24 @@
             </a>
         </div>
     </div>
+    <script>let toggleOpen = document.querySelector('.toggle_menu');
 
+        let toggleClose = document.querySelector('.close');
+    
+        let overlay = document.querySelector('.toggle_menu_overlay');
+    
+        //let = variabel
+    
+    
+        toggleOpen.addEventListener('click', function () {
+            overlay.classList.remove('hidden');
+        });
+        //fjern classen der hedder "hidden", så classen bliver vist
+    
+        toggleClose.addEventListener('click', function () {
+            overlay.classList.add('hidden');
+        });
+        //tilføj den igen når man klikker på "close"</script>
 
     <footer class="linebreaker__footer">
         <div class="flex text collumn-4 footer_collumn-4">
