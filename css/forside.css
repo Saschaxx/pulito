@@ -137,6 +137,10 @@
         height:70vh ;
         min-height: 900px; ;
     }
+
+    .info_textcon {
+        height: 450px;
+    }
 }
 
 @media only screen and (max-width: 800px) and (min-width: 320px)  { 
