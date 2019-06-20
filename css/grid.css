@@ -16,6 +16,10 @@
     width: 35%;
 }
 
+.collumn-4 {
+    width: 40%;
+}
+
 .collumn-6 {
     width: 50%;
     flex-basis: 50%;
@@ -29,6 +33,7 @@
     background: #549F91;
     padding: 13% 5%;
     color: #fff;
+    width: 40%;
 }
 
 @media only screen and (max-width: 800px) and (min-width: 320px)  { 
