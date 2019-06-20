@@ -29,4 +29,11 @@
         height:30vh ;
         min-height: 690px; ;
     }
+
+    .hero__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50%;
+    }
 }

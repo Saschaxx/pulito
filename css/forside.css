@@ -158,7 +158,6 @@
     .hero__container {
         display: flex;
         flex-direction: column;
-        align-items: unset;
         justify-content: unset;
     }
 
@@ -178,6 +177,7 @@
 
     .text_break {
         width: 100%;
+        padding: 100px 0;
     }
 
     .text_break-img {
